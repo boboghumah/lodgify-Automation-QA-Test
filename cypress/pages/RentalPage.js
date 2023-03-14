@@ -109,6 +109,7 @@ class RentalPage {
     getPriceRate() {
         return cy.get('.rate-price-column')
     }
+
 }
 
 module.exports = RentalPage

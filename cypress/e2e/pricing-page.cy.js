@@ -44,7 +44,7 @@ context('Lodgify Pricing Page', () => {
     })
 
 
-    it.only('Verify the benefits list for all plan are displayed correctly', () => {
+    it('Verify the benefits list for all plan are displayed correctly', () => {
 
         //Select Monhly payment option
         pricing.selectMonthlyPricingOption()

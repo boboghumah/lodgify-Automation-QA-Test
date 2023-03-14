@@ -35,7 +35,6 @@ context('Lodgify Contact Page', () => {
 
         contact.clickSendButton();
 
-
     });
 
 
