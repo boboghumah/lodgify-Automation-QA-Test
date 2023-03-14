@@ -43,7 +43,7 @@ context('Test First Rental Page', () => {
         rental.getPriceRate().contains('$')
     })
 
-    it.only('E2e Rental page scenarios', () => {
+    it('E2e Rental page scenarios', () => {
 
         //Should pick a date range of 6 days and validate the price changes on "Book for" button
 

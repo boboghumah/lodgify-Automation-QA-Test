@@ -38,6 +38,7 @@ class PricingPage {
     getPlanBenefitList() {
         return cy.get('.plan-feature-lists .list-left-sm')
     }
+
 }
 
 module.exports = PricingPage

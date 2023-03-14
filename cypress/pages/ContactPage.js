@@ -67,6 +67,7 @@ class ContactPage {
     selectArivalAndDepatureDate(day, month, date) {
         return cy.get(`[aria-label="${day}, ${month} ${date}, 2023"]`).click()
     }
+
 }
 
 module.exports = ContactPage
